@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -29,9 +28,9 @@
                                 <subviews>
                                     <button contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y5O-o4-ssr">
                                         <rect key="frame" x="70" y="542" width="234" height="43"/>
-                                        <color key="backgroundColor" red="0.85882352939999995" green="0.0" blue="0.33333333329999998" alpha="0.75492294520000003" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.050980392156862744" green="0.56862745098039214" blue="0.6588235294117647" alpha="0.75492294520000003" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
-                                        <color key="tintColor" red="0.85882352939999995" green="0.0" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="tintColor" red="0.050980392156862744" green="0.56862745098039214" blue="0.6588235294117647" alpha="1" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="done">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
@@ -111,38 +110,23 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3534" y="-163"/>
+            <point key="canvasLocation" x="4636" y="-69"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="UKC-0c-5Fv">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="v3K-8F-Ccd" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="H9S-n4-UOp" sceneMemberID="viewController">
                     <view key="view" autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="AUP-Bi-cC3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ends_logo" translatesAutoresizingMaskIntoConstraints="NO" id="hM0-e8-zRv">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="ends_logo" translatesAutoresizingMaskIntoConstraints="NO" id="hM0-e8-zRv">
                                 <rect key="frame" x="0.0" y="222" width="382" height="217"/>
                                 <color key="backgroundColor" red="0.12549019610000001" green="0.1137254902" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="217" id="DHv-EF-j0p"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5nE-jM-A6n">
-                                <rect key="frame" x="74" y="471" width="234" height="43"/>
-                                <color key="backgroundColor" red="0.85882352941176465" green="0.0" blue="0.33333333333333331" alpha="0.75492294520547942" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="create account">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="20"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZFG-uA-qFD">
                                 <rect key="frame" x="74" y="536" width="234" height="43"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -150,9 +134,24 @@
                                     <constraint firstAttribute="height" constant="43" id="KqT-l6-LaQ"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
-                                <color key="tintColor" red="0.85882352939999995" green="0.0" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.050980392156862744" green="0.56862745098039214" blue="0.6588235294117647" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="sign in">
-                                    <color key="titleColor" red="0.85882352941176465" green="0.0" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.050980392156862744" green="0.56862745098039214" blue="0.6588235294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XnB-4i-d50">
+                                <rect key="frame" x="74" y="467" width="234" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.050980392159999999" green="0.56862745100000001" blue="0.6588235294" alpha="0.75492294520000003" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
+                                <color key="tintColor" red="0.85882352939999995" green="0.0" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="create account">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -165,15 +164,8 @@
                         <color key="tintColor" red="0.12549019610000001" green="0.1137254902" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
                         <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="hM0-e8-zRv" secondAttribute="trailing" constant="-23" id="0Op-zT-0Jn"/>
-                            <constraint firstItem="5nE-jM-A6n" firstAttribute="centerX" secondItem="hM0-e8-zRv" secondAttribute="centerX" id="6ke-kW-xxp"/>
                             <constraint firstItem="hM0-e8-zRv" firstAttribute="top" secondItem="cDl-zK-zdR" secondAttribute="top" constant="202" id="Aqy-pN-laL"/>
-                            <constraint firstItem="5nE-jM-A6n" firstAttribute="leading" secondItem="cDl-zK-zdR" secondAttribute="leading" constant="74" id="Uw8-c1-nlv"/>
-                            <constraint firstItem="hM0-e8-zRv" firstAttribute="leading" secondItem="AUP-Bi-cC3" secondAttribute="leading" id="VMd-rf-qvi"/>
                             <constraint firstItem="ZFG-uA-qFD" firstAttribute="leading" secondItem="cDl-zK-zdR" secondAttribute="leading" constant="70" id="hY0-sS-Npr"/>
-                            <constraint firstItem="ZFG-uA-qFD" firstAttribute="centerX" secondItem="AUP-Bi-cC3" secondAttribute="centerX" id="hvo-12-sYQ"/>
-                            <constraint firstItem="ZFG-uA-qFD" firstAttribute="top" secondItem="5nE-jM-A6n" secondAttribute="bottom" constant="23" id="ley-ky-DA0"/>
-                            <constraint firstItem="5nE-jM-A6n" firstAttribute="top" secondItem="hM0-e8-zRv" secondAttribute="bottom" constant="32" id="rzd-or-x3y"/>
                             <constraint firstItem="cDl-zK-zdR" firstAttribute="bottom" secondItem="ZFG-uA-qFD" secondAttribute="bottom" constant="87" id="tlz-7d-DCM"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="cDl-zK-zdR"/>
@@ -183,6 +175,7 @@
                         <segue destination="mlv-DV-Okr" kind="show" id="2pt-nO-GSh"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v3K-8F-Ccd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-810.39999999999998" y="-0.44977511244377816"/>
         </scene>
@@ -226,7 +219,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2615" y="553"/>
+            <point key="canvasLocation" x="4636" y="772"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="d1D-dj-gmm">
@@ -241,7 +234,7 @@
                                 <subviews>
                                     <button contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0YJ-8v-cuz">
                                         <rect key="frame" x="70" y="542" width="234" height="43"/>
-                                        <color key="backgroundColor" red="0.85882352939999995" green="0.0" blue="0.33333333329999998" alpha="0.75492294520000003" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.050980392156862744" green="0.56862745098039214" blue="0.6588235294117647" alpha="0.75492294520000003" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
                                         <color key="tintColor" red="0.85882352939999995" green="0.0" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="login">
@@ -305,9 +298,9 @@
                         <subviews>
                             <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7MG-UN-Pya">
                                 <rect key="frame" x="70" y="542" width="234" height="43"/>
-                                <color key="backgroundColor" red="0.85882352939999995" green="0.0" blue="0.33333333329999998" alpha="0.75492294520000003" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.050980392156862744" green="0.56862745098039214" blue="0.6588235294117647" alpha="0.75492294520000003" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
-                                <color key="tintColor" red="0.85882352939999995" green="0.0" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.050980392156862744" green="0.56862745098039214" blue="0.6588235294117647" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="next">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -392,9 +385,9 @@
                                 <subviews>
                                     <button contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IXi-Tw-hwE">
                                         <rect key="frame" x="70" y="542" width="234" height="43"/>
-                                        <color key="backgroundColor" red="0.85882352939999995" green="0.0" blue="0.33333333329999998" alpha="0.75492294520000003" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.050980392156862744" green="0.56862745098039214" blue="0.6588235294117647" alpha="0.75492294520000003" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
-                                        <color key="tintColor" red="0.85882352939999995" green="0.0" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="tintColor" red="0.050980392156862744" green="0.56862745098039214" blue="0.6588235294117647" alpha="1" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="next">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
@@ -476,9 +469,9 @@
                                 <subviews>
                                     <button contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kAV-vu-HZZ">
                                         <rect key="frame" x="70" y="542" width="234" height="43"/>
-                                        <color key="backgroundColor" red="0.85882352939999995" green="0.0" blue="0.33333333329999998" alpha="0.75492294520000003" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.050980392156862744" green="0.56862745098039214" blue="0.6588235294117647" alpha="0.75492294520000003" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
-                                        <color key="tintColor" red="0.85882352939999995" green="0.0" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="tintColor" red="0.050980392156862744" green="0.56862745098039214" blue="0.6588235294117647" alpha="1" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="next">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
@@ -533,7 +526,7 @@
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
                                         <color key="tintColor" red="0.85882352939999995" green="0.0" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="take a photo instead">
-                                            <color key="titleColor" red="0.85882352939999995" green="0.0" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleColor" red="0.050980392156862744" green="0.56862745098039214" blue="0.6588235294117647" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -574,11 +567,12 @@
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
             <objects>
-                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                <tabBarController providesPresentationContextTransitionStyle="YES" id="49e-Tb-3d3" sceneMemberID="viewController">
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
                         <rect key="frame" x="0.0" y="975" width="768" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.12549019610000001" green="0.1137254902" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
@@ -587,7 +581,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3694" y="285"/>
+            <point key="canvasLocation" x="3558" y="326"/>
         </scene>
     </scenes>
     <resources>
